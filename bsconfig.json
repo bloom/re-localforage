@@ -1,0 +1,12 @@
+{
+  "name": "re-localforage",
+  "version": "0.1.0",
+  "sources": ["src"],
+  "suffix": ".js",
+  "refmt": 3,
+  "package-specs": {
+    "module": "commonjs",
+    "in-source": true
+  },
+  "bs-dependencies": []
+}
