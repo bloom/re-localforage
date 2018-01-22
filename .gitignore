@@ -2,3 +2,5 @@ node_modules
 .merlin
 lib
 .bsb.lock
+.DS_Store
+**/*.bs.js

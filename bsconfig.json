@@ -1,12 +1,13 @@
 {
   "name": "re-localforage",
-  "version": "0.1.0",
-  "sources": ["src"],
+  "version": "1.1.0",
+  "sources": ["src", {"dir": "__tests__", "type": "dev"}],
   "suffix": ".js",
   "refmt": 3,
   "package-specs": {
     "module": "commonjs",
     "in-source": true
   },
-  "bs-dependencies": []
+  "bs-dependencies": [],
+  "bs-dev-dependencies": ["@glennsl/bs-jest"]
 }

@@ -1,7 +1,2 @@
-type t = {
-  .
-  "getItem": [@bs.meth] (string => Js.Promise.t(Js.Json.t)),
-  "setItem": [@bs.meth] ((string, Js.Json.t) => Js.Promise.t(unit))
-};
-
-[@bs.module] external instance : t = "localforage";
+[@bs.module "./vendor/localforage.min.js"] external getItem : (string) => Js.Promise.t(Js.Json.t) = "";
+[@bs.module "./vendor/localforage.min.js"] external setItem : (string, Js.Json.t) => Js.Promise.t(unit) = "";
